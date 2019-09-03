@@ -1,0 +1,18 @@
+<!--pages/text/text.wxml-->
+<!--1.基本的使用-->
+<text>text文件基本使用\n</text>
+
+<!--2.selectable让文本可以选择-->
+<!--默认情况下个text文本长按是不能被选中的，如果要被选中需要加selectable属性-->
+<text selectable="{{true}}">文本可以选择\n</text>
+<text selectable>文本可以选择\n</text>
+
+<!--3.space:决定空格大小-->
+<text space="nbsp">Hellow world!\n</text>
+<text space="emsp">Hellow world!\n</text>
+<text space="ensp">Hellow world!\n</text>
+
+<!--4.decode属性：是否解码文本-->
+<text>6 &gt; 3\n</text>
+<text decode="{{true}}">6 &gt; 3\n</text>
+<text decode>6 &gt; 3\n</text>
